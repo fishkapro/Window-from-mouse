@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\bin\Debug\WindowFormMouse.exe.config
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\bin\Debug\WindowFormMouse.exe
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\bin\Debug\WindowFormMouse.pdb
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.Form1.resources
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.Properties.Resources.resources
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.exe
+C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.pdb
