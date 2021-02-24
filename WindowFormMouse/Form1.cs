@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowFormMouse
@@ -22,24 +17,35 @@ namespace WindowFormMouse
         {
             richTextBox1.Clear();
 
-            POINT cursorPos = new POINT();
+            var cursorPos = new POINT();
             GetCursorPos(out cursorPos);
 
-            this.Text = cursorPos.X.ToString() + " | " + cursorPos.Y.ToString();
+            this.Text = $"X:{cursorPos.X}, Y:{cursorPos.Y}";
 
             EnumWindows(delegate (IntPtr wnd, IntPtr param)
             {
-                if (IsWindowVisible(wnd))
+                var winText = GetWindowText(wnd);
+
+                if (IsWindowVisible(wnd) && string.IsNullOrEmpty(winText) == false)
                 {
-                    if (GetWindowText(wnd) != "")
+                    Rect wRect = new Rect();
+                    GetWindowRect(wnd, ref wRect);
+
+                    if ((cursorPos.X > wRect.Left
+                         && cursorPos.X < wRect.Right)
+                         && (cursorPos.Y > wRect.Top
+                         && cursorPos.Y < wRect.Bottom))
                     {
-                        Rect wRect = new Rect();
-                        GetWindowRect(wnd, ref wRect);
-
-
-                        if ((cursorPos.X > wRect.Left && cursorPos.X < (wRect.Right - wRect.Left)) && (cursorPos.Y > wRect.Top && cursorPos.Y < (wRect.Bottom - wRect.Top)))
+                        if (winText.StartsWith("X")
+                         || winText.StartsWith(nameof(WindowFormMouse)))
                         {
-                            richTextBox1.AppendText(GetWindowText(wnd) + " | " + wRect.Left.ToString() + ":" + wRect.Top.ToString() + Environment.NewLine);
+                            richTextBox1.AppendText("Курсор мыши на окне нашей программы."
+                                + Environment.NewLine);
+                        }
+                        else
+                        {
+                            richTextBox1.AppendText($"Окно: {winText} в прямоугольнике: {wRect}"
+                                + Environment.NewLine);
                         }
                     }
                 }
