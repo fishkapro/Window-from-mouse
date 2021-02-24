@@ -8,3 +8,13 @@ C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\Wi
 C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.exe
 C:\Users\Administrator\source\repos\WindowFormMouse\WindowFormMouse\obj\Debug\WindowFormMouse.pdb
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\bin\Debug\WindowFormMouse.exe.config
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\bin\Debug\WindowFormMouse.exe
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\bin\Debug\WindowFormMouse.pdb
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\obj\Debug\WindowFormMouse.csprojAssemblyReference.cache
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\obj\Debug\WindowFormMouse.Form1.resources
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\obj\Debug\WindowFormMouse.Properties.Resources.resources
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\obj\Debug\WindowFormMouse.csproj.GenerateResource.cache
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\obj\Debug\WindowFormMouse.csproj.CoreCompileInputs.cache
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\obj\Debug\WindowFormMouse.exe
+D:\4_Collaborations\Window-from-mouse\WindowFormMouse\obj\Debug\WindowFormMouse.pdb
