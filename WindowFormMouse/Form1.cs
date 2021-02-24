@@ -61,6 +61,11 @@ namespace WindowFormMouse
             public int Top { get; set; }
             public int Right { get; set; }
             public int Bottom { get; set; }
+
+            public override string ToString()
+            {
+                return $"Верх: {Top}, низ: {Bottom}, лево: {Left}, право: {Right}";
+            }
         }
         [DllImport("user32.dll")]
         private static extern bool EnumWindows(EnumWindowsProc enumProc, IntPtr lParam);
